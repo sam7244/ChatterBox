@@ -18,7 +18,7 @@ const Chat = () => {
   const [message, setMessage] = useState("");
   const [users, setUsers] = useState("");
 
-  const ENDPOINT = "localhost:3030";
+  const ENDPOINT = "https://chatterbox-backend1.onrender.com";
 
   useEffect(() => {
     const { name, room } = queryString.parse(location.search);
